@@ -6,7 +6,7 @@
 # Solucion : Desarrollar un sistema que permita identificar 
 # cuantas herraduras son del mismo color y asi determinar cuantas herraduras nuevas debe comprar el caballo.
  
-herraduras= []
+herraduras = []
 
 #Solicitud de colores de herraduras
 for i in range(4):
@@ -23,3 +23,4 @@ if herraduras[1] == herraduras[2] or herraduras[1] == herraduras[3]:
 if herraduras[2] == herraduras[3]:
     comprar_herradura += 1
 print(comprar_herradura)
+
